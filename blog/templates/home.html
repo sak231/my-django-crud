@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="post-div">
+            {% if object_list %}
+                {% for post in object_list %}
+                <div class="each-post-div">
+                    <h2><a href="/post/detail/{{post.pk}}">{{ post.title }}</a></h2>
+                    <p>{{ post.body }}</p>
+                    <a href="post/delete/{{post.pk}}/" class="delete-post">Delete post</a><a href="/post/edit/{{post.pk}}/" class="edit-post">Edit post</a>
+                </div>
+                {% endfor %}
+            {% else %}
+                <h1 class="no-content"> No content at this time </h1>
+            {% endif %}
+    </div>
+{% endblock content %}

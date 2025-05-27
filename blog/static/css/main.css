@@ -1,0 +1,79 @@
+body{
+    background-color: hsl(33, 86%, 16%);
+}
+.container{
+    background-color: hsl(32, 30%, 67%);
+    border-radius: 5px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color:hsl(34, 91%, 9%)
+}
+.main-title{
+    float:left;
+    font-size: 2rem;
+}
+.new-title{
+    float:right;
+    font-size: 2rem;
+}
+.post-div{
+    border-radius: 5px;
+    border:1px solid hsl(0, 50%, 6%);
+}
+.each-post-div{
+    border:1px solid  hsl(0, 50%, 6%);
+    background-color: hsl(33, 63%, 34%);;
+    margin:20px;
+    border-radius: 5px;
+    padding:25px;
+}
+.delete-post{
+    color: white;
+    font-size:1.1em;
+    float: right;
+    padding-left:15px;
+}
+.edit-post{
+    color: white;
+    font-size:1.1em;
+    float:right;
+    padding-left:15px;
+}
+.edit-btn{
+    width:100px;
+    height:40px;
+    font-size: 1rem;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    background-color: hsl(120, 2%, 8%);
+}
+.save-btn{
+    width:100px;
+    height:40px;
+    font-size: 1rem;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    background-color: hsl(120, 67%, 30%);
+}
+.delete-btn{
+    width:100px;
+    height:40px;
+    font-size: 1rem;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    background-color: hsl(0, 73%, 46%);
+}
+.no-content{
+    text-align:center;
+    color:white;
+}
+.footer{
+    color:white;
+    font-size: 0.8rem;
+    text-align: center;
+}
