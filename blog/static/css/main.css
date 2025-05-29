@@ -77,3 +77,6 @@ a{
     font-size: 0.8rem;
     text-align: center;
 }
+.action-title{
+    color:hsl(0, 84%, 39%);
+}

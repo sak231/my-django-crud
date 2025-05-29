@@ -1,8 +1,10 @@
 {% extends 'base.html' %}
 
 {% block content %}
+    <h2 class="action-title">Blog Post Details</h2>
     <div class="each-post-div">
         <h2><a href="">{{ post.title }}</a></h2>
         <p>{{ post.body }}</p>
+        <a href="/post/delete/{{post.pk}}/" class="delete-post">Delete post</a><a href="/post/edit/{{post.pk}}/" class="edit-post">Edit post</a>
     </div>
 {% endblock content %}
