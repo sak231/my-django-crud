@@ -1,10 +1,12 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h2 class="action-title">Add New Blog Post</h2>
-    <form action="" method="POST">
-        {% csrf_token %}
-        {{ form }}
-        <input type="Submit" value="Save" class="save-btn">
-    </form>
+   <div class="form-group">
+        <h2 class="action-title">Add New Blog Post</h2>
+        <form action="" method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="Submit" value="Save" class="btn btn-success form-control">
+        </form>
+   </div>
 {% endblock content %}
